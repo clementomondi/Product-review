@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/340305d5ca.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body class="body-container">
+    <div class="closet">
+        <div class="container-1">
+            <div class="btn" onclick="show()">
+                <h9>Preview</h9>
+                <i class="fa-regular fa-circle-dot fa-beat"></i>
+            </div>
+            <div id="container" class="container">
+                <div onclick="hide()" class="close-btn">
+                    <div class="x-btn">
+                        <i class="fa-solid fa-xmark fa-beat fa-2xs" style="color: #a9aaad;"></i>
+                    </div>
+                </div>
+                <h1>Overall rating</h1>
+                <div class="star">
+                    <a href="#" class="bi-star-fill"></a>
+                    <a href="#" class="bi-star-fill"></a>
+                    <a href="#" class="bi-star-fill"></a>
+                    <a href="#" class="bi-star-fill"></a>
+                    <a href="#" class="bi-star-fill"></a>
+                </div>
+                <h2>Click to rate</h2>
+                <h3>Review title</h3>
+                <input class="input-1" placeholder="Example easy to use">
+                <h4>Would you recommend this product to a friend?</h4>
+                <div class="check">
+                    <input type="checkbox" class="box">
+                    <h5>NO</h5>
+                    <input type="checkbox" class="box">
+                    <h5>Yes</h5>
+                </div>
+                <h3>Review title</h3>
+                <input class="input-2"
+                    placeholder="Example since i bought this a month ago,it has been used a lot. What i like best/What is worst about this product is....">
+                <div class="split">
+                    <div class="">
+                        <h6>Nickname</h6>
+                        <input class="input-1" placeholder="Example bob27">
+                    </div>
+                    <div class="">
+                        <h6>Email address(Will not be published) </h6>
+                        <input class="input-1" placeholder="Example your@gmail.com">
+                    </div>
+                </div>
+                <h7>I accept the term and condition</h7>
+                <p>You will be able to receive emails in connection with this review (eg if others comment on your
+                    review).
+                    All emails
+                    contain the option to unsubscribe. We can use the text and star rating from your review in other
+                    marketing.</p>
+                <button class="button">Submit product review</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
